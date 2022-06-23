@@ -1,0 +1,23 @@
+# **/ <- in all directories
+**/*.jpg
+**/*.png
+**/*.webp
+**/build
+
+# trailing slash at the end means that every node_modules in below directory is
+node_modules/
+
+# binaries
+
+bin/
+dist/
+lib/
+
+
+# editors
+
+*.swp
+.idea/
+.vs/
+.vscode/
+.DS_Store
