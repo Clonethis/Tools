@@ -31,16 +31,16 @@ def convert_to_webp(source, destination):
     # image resizing
     percentage = 0.9
 
-    percentageOffset = 0.07
+    percentageOffset = 0.04
 
     # quality on which parsing should begin
     quality = 90
 
     # iterative step
-    qualityOffset = 3
+    qualityOffset = 2
 
 # parsed image size will be below this value ( in bytes )
-    maximalImageSize = 100000
+    maximalImageSize = 150000
 
     print("Running convert fc")
     dest = Path(destination)
